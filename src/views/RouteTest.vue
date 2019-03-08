@@ -1,6 +1,7 @@
 <template>
   <div class="about">
-    <h1>{{text}}</h1>
+    <h1>Route Test</h1>
+    <p>{{text}}</p>
   </div>
 </template>
 
@@ -8,7 +9,7 @@
 import { mapState } from 'vuex';
 
 export default {
-  name: 'About',
+  name: 'RouteTest',
   computed: {
     ...mapState([
       'text'
